@@ -235,3 +235,48 @@ p {
     order: 0;
     flex-grow: 0;
 }
+
+.frame-unggul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 295px;
+    height: 184px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text-unggul {
+    width: 300px;
+    height: 20px;
+    margin-left: 20px;
+
+    /* Body/14/Light */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* identical to box height, or 143% */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.icon-check {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: -3px;
+}
