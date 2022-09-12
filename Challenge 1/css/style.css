@@ -1,0 +1,237 @@
+p {
+    position: absolute;
+    width: 468px;
+    height: 60px;
+    left: 136px;
+    top: 301px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: black;
+}
+
+.background {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+
+    background: #F1F3FF;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 136px;
+    top: 25px;
+    background: #0D28A6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-link {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 30px;
+}
+
+
+.nav-link:hover {
+    border-bottom: 3px solid blue;
+}
+
+.button-reg {
+    color: white;
+    font-family: 'Helvetica';
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.jumbo-text {
+    position: absolute;
+    width: 568px;
+    height: 108px;
+    left: 136px;
+    top: 177px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+
+    color: black;
+}
+
+.button-sewa {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    left: 136px;
+    top: 377px;
+
+    background: #5CB85F;
+    border-radius: 2px;
+}
+
+.car-picture{
+    /* img_car */
+    position: absolute;
+    width: 704px;
+    height: 407px;
+    left: 0px;
+    top: -150px;
+
+}
+
+.bg-car {
+    /* bg car */
+    position: absolute;
+    width: 704px;
+    height: 243px;
+    left: 736px;
+    top: 261px;
+
+    /* Primary/DarkBlue/04 */
+
+    background: #0D28A6;
+    border-radius: 60px 0px 0px 0px;
+}
+
+.our-service {
+    position: absolute;
+    width: 1027px;
+    height: 428px;
+    left: 206px;
+    top: 604px;
+}
+
+.circle-big {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 0px;
+    top: 1px;
+    border-radius: 50%;
+
+    background: #92D094;
+}
+
+.girl-picture {
+    position: absolute;
+    width: 374px;
+    height: 428px;
+    left: 99px;
+    top: 0px;
+}
+
+.small-circle {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 60px;
+    top: 336px;
+    border-radius: 50%;
+
+    /* Allert/Warning */
+
+    background: #F9CC00;
+}
+
+.red-circle {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 383px;
+    top: 43px;
+    border-radius: 50%;
+
+    /* Allert/Danger */
+
+    background: #FA2C5A;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 468px;
+    height: 356px;
+    left: 765px;
+    top: 640px;
+}
+
+.section-tag {
+    width: 468px;
+    height: 72px;
+
+    /* Heading/24/Bold */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* or 150% */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section-sub-tag {
+    width: 468px;
+    height: 60px;
+
+    /* Body/14/Light */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* or 143% */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
