@@ -17,7 +17,7 @@ p {
 .display {
     position: relative;
 width: 1440px;
-height: 3226px;
+height: 1150px;
 
 background: #FFFFFF;
 }
@@ -55,9 +55,7 @@ background: #FFFFFF;
     line-height: 20px;
     margin-left: 10px;
     margin-top: 8px;
-
     color: #000000;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -99,14 +97,11 @@ background: #FFFFFF;
     height: 60px;
     left: 136px;
     top: 301px;
-
-    /* Body/14/Light */
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
     color: #000000;
 }
 
@@ -141,15 +136,11 @@ background: #FFFFFF;
 }
 
 .bg-car {
-    /* bg car */
     position: absolute;
     width: 704px;
     height: 243px;
     left: 736px;
-    top: 261px;
-
-    /* Primary/DarkBlue/04 */
-
+    top: 257px;
     background: #0D28A6;
     border-radius: 60px 0px 0px 0px;
 }
@@ -207,7 +198,7 @@ background: #FFFFFF;
     background: #FA2C5A;
 }
 
-.container-section {
+.part-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -305,3 +296,61 @@ background: #FFFFFF;
     left: 0px;
     top: -3px;
 }
+
+/* WHY US */
+.title-whyUs {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.tag-whyUs {
+    position: absolute;
+    width: 468px;
+    height: 20px;
+    left: 20px;
+    top: 58px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4cm;
+}
+
+.thumb-circle {
+    border-radius: 50%;
+    color: yellow;
+    width: 18%;
+    margin-bottom: 10px;
+}
+
+.price-circle {
+    border-radius: 50%;
+    color: red;
+    width: 18%;
+    margin-bottom: 10px;
+}
+
+
+.text-left {
+    text-align: left;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-title {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* End Why Us */
+
+/* Testimonial */
