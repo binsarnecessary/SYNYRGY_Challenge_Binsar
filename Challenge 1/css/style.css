@@ -14,6 +14,14 @@ p {
     color: black;
 }
 
+.display {
+    position: relative;
+width: 1440px;
+height: 3226px;
+
+background: #FFFFFF;
+}
+
 .background {
     position: absolute;
     width: 1440px;
@@ -70,19 +78,36 @@ p {
 }
 
 .jumbo-text {
-    position: absolute;
-    width: 568px;
-    height: 108px;
-    left: 136px;
-    top: 177px;
-
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 150%;
 
+    position: absolute;
+    width: 568px;
+    height: 108px;
+    left: 136px;
+    top: 177px;
+    
     color: black;
+}
+
+.jumbo-tag-text {
+    position: absolute;
+    width: 468px;
+    height: 60px;
+    left: 136px;
+    top: 301px;
+
+    /* Body/14/Light */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #000000;
 }
 
 .button-sewa {
@@ -262,7 +287,7 @@ p {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 10px;
 
     /* identical to box height, or 143% */
     color: #000000;
