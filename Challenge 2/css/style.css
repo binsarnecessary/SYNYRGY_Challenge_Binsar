@@ -8,7 +8,14 @@
   color: white;
 }
 
+.img-testimonial {
+  width: 80px;
+  height: 80px;
+}
 
+.accordion-item {
+  margin-top: 16px;
+}
 
 @media only screen and (min-width: 768px) {
   .nav-mobile {
@@ -31,7 +38,7 @@
     height: 133px;
     margin-top: -150px;
     border-radius: 50%;
-    background-color: #92D094;
+    background-color: #92d094;
   }
 
   .md-circle {
@@ -57,11 +64,24 @@
   }
 
   .bg-dark-blue {
-    background-color: #0D28A6;
+    background-color: #0d28a6;
     width: 1100px;
     height: 326px;
     border-radius: 20px;
   }
+
+  .testimonial-card {
+    margin-right: 30px;
+  }
+
+  .faq-bg {
+    margin-top: 130px;
+    padding: 60px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+  }
+
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -109,9 +129,16 @@
   }
 
   .bg-dark-blue {
-    background-color: #0D28A6;
+    background-color: #0d28a6;
     width: 320px;
     height: 400px;
     border-radius: 20px;
+  }
+
+  .faq-bg {
+    margin-top: 130px;
+    padding: 60px;
+    border-radius: 20px;
+    margin-bottom: 80px;
   }
 }
