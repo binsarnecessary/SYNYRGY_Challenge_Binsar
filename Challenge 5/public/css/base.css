@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap");
+
+* {
+  font-family: "Helvetica";
+}
+
+:root {
+  --darkBlue05: #091b6f;
+  --darkBlue04: #0d28a6;
+  --darkBlue03: #5e70c4;
+  --darkBlue02: #aeb7e1;
+  --darkBlue01: #cfd4ed;
+  --limeGreen05: #3d7b3f;
+  --limeGreen04: #5cb85f;
+  --limeGreen03: #92d094;
+  --limeGreen02: #c9e7ca;
+  --limeGreen01: #def1df;
+  --danger: #fa2c5a;
+  --warning: #f9cc00;
+  --success: #73ca5c;
+  --primary: #0d28a6;
+  --neutral05: #151515;
+  --neutral04: #3c3c3c;
+  --neutral03: #8a8a8a;
+  --neutral02: #f4f5f7;
+  --neutral01: 255, 255, 255;
+  --heroColor: #f1f3ff;
+  --shadowLow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  --shadowHigh: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  --navHeight: 75px;
+  transition: all 200ms ease-in;
+}
+
+body,
+html {
+  font-family: "Poppins";
+  margin: 0 !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+a {
+  color: var(--neutral05);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--neutral05);
+  text-decoration: none;
+}
+
+.row {
+  /*Overwrite bootstrap*/
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Color */
+.darkBlue04 {
+  background-color: var(--darkBlue04);
+}
+
+.neutral01 {
+  background-color: rgb(var(--neutral01));
+}
+
+.neutral02 {
+  background-color: var(--neutral02);
+}
+
+.fw-light {
+  font-weight: 100 !important;
+}
+
+.fw-normal {
+  font-weight: 300 !important;
+}
+
+.fw-bold {
+  font-weight: 500 !important;
+}
+
+.fw-bolder {
+  font-weight: 700 !important;
+}
+
+.nav-wdith {
+  height: 64px !important;
+}
+
+.shadow-lg {
+  box-shadow: var(--shadowHigh) !important;
+}
+
+.shadow-sm {
+  box-shadow: var(--shadowLow);
+}
+
+.btn-darkBlue04 {
+  background: var(--darkBlue04) !important;
+  border-radius: 5px !important;
+}
+
+.text-darkBlue02 {
+  color: var(--darkBlue02);
+}
+
+.btn-size {
+  border: 2px solid var(--darkBlue02);
+}
+
+.btn-size-active {
+  background: rgba(13, 41, 166, 0.15) !important;
+  border: 2px solid var(--darkBlue04);
+  color: var(--darkBlue04);
+  font-weight: 700 !important;
+}
+
+.text-danger {
+  color: var(--danger) !important;
+}
+
+.btn-delete {
+  border: 2px solid var(--danger);
+}
+
+.btn-success {
+  background: var(--limeGreen04) !important;
+  border: none;
+}
+
+.btn {
+  transition: transform 0.2s ease;
+}
+
+.btn:focus,
+.btn:active,
+.btn-primary:active,
+.btn-primary:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn:active,
+.btn-primary:active {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  aspect-ratio: 16 / 10;
+  margin: 0 auto;
+  object-fit: contain;
+  overflow: hidden;
+  width: 85% !important;
+}
+
+.me-6 {
+  margin-right: 10rem !important;
+}
